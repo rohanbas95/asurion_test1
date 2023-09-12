@@ -16,9 +16,9 @@ jobs:
       run: echo "Tag Number is  ${{ github.event.inputs.tag }}"
     - name: Group of log lines
       run: |
-            echo "::group::My title 1"
-            echo "Inside group wefiowejfwoeifjwefj"
+            echo "::group::npx acdk diff"
+            echo "Logs for npx acdk diff"
             echo "::endgroup::"
-            echo "::group::My title 2"
-            echo "Inside group wqwqwqwqqwqwqqwqwqw"
+            echo "::group::npx acdk deploy"
+            echo "npx acdk deploy"
             echo "::endgroup::"
